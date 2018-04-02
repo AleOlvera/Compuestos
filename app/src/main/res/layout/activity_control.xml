@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laboratorio"
+    android:orientation="vertical"
+    tools:context="com.mecalogik.cp.Control">
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Id"
+            android:numeric="decimal"
+            android:id="@+id/ettid_control"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnconsultar_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyleselector"
+            android:text="CONSULTAR"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/john"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOMBRES"
+        android:textSize="17dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"/>
+    <EditText
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ettnombre_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANTIDAD"
+        android:textSize="17dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:textColorHint="#000"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ettcantidad_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INFORMACIÓN"
+        android:textSize="17dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <EditText
+            android:textColorHint="#000"
+            android:layout_marginTop="5dp"
+            android:id="@+id/ettinformacion_control"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </ScrollView>
+    <TextView
+        android:textSize="20dp"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:autoLink="web"
+        android:clickable="true"
+        android:hint="pdf"
+        android:layout_marginTop="15dp"
+        android:id="@+id/ettpdf_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:id="@+id/btnguar_control"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:background="@drawable/buttonstyleselector"
+            android:gravity="center"/>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnedi_control"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:background="@drawable/buttonstyleselector"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

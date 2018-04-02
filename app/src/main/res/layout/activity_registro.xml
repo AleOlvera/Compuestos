@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/uno"
+    tools:context="com.mecalogik.cp.Registro">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:background="@drawable/john"/>
+
+    <TextView
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña" />
+
+    <EditText
+        android:background="@drawable/margen_blanco"
+        android:id="@+id/etcontraseña"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+       android:layout_marginLeft="10dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_https_black_24dp"/>
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repetir Contraseña" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/margen_blanco"
+        android:id="@+id/etcontraseña2"
+        android:textColor="#fff"
+        android:layout_marginLeft="10dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_https_black_24dp"/>/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnlisto"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="LISTO"
+        android:background="@drawable/margen_blanco"/>
+
+</LinearLayout>
